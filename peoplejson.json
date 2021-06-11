@@ -1,0 +1,92 @@
+{
+  "Dhruvi": {
+    "State": "TX",
+    "Salary": 99099,
+    "Grade": 100,
+    "Room": 550,
+    "Telnum": 1000010,
+    "Picture": "dhru.jpg",
+    "Keywords": "Dhruvi is nice"
+  },
+  "Chuck": {
+    "State": "TX",
+    "Salary": 1000,
+    "Grade": 98,
+    "Room": 420,
+    "Telnum": "",
+    "Picture": "chuck.jpg",
+    "Keywords": "Jees is too"
+  },
+  "Meena": {
+    "State": "TX",
+    "Salary": 125000,
+    "Grade": 99,
+    "Room": "",
+    "Telnum": "",
+    "Picture": "",
+    "Keywords": "Meena is outa here"
+  },
+  "Dave": {
+    "State": "NN",
+    "Salary": 20,
+    "Grade": 40,
+    "Room": 525,
+    "Telnum": 0,
+    "Picture": "dave.jpg",
+    "Keywords": "Who is this"
+  },
+  "Tuan": {
+    "State": "CA",
+    "Salary": "",
+    "Grade": 80,
+    "Room": -1,
+    "Telnum": "",
+    "Picture": "",
+    "Keywords": "Tuan is gone"
+  },
+  "Tavo": {
+    "State": "CA",
+    "Salary": 220200,
+    "Grade": "",
+    "Room": "",
+    "Telnum": "",
+    "Picture": "tavo.jpg",
+    "Keywords": "Tavo works very hard"
+  },
+  "Nora": {
+    "State": "TX",
+    "Salary": -1,
+    "Grade": 80,
+    "Room": 520,
+    "Telnum": 808,
+    "Picture": "",
+    "Keywords": ""
+  },
+  "Sue": {
+    "State": "NN",
+    "Salary": "",
+    "Grade": 79,
+    "Room": 0,
+    "Telnum": 2723785,
+    "Picture": "upset.jpg",
+    "Keywords": "Sue isn't Susan"
+  },
+  "Susan": {
+    "State": "OK",
+    "Salary": 255000,
+    "Grade": 84,
+    "Room": 101,
+    "Telnum": 911,
+    "Picture": "",
+    "Keywords": "Susan is very smart"
+  },
+  "Darwin": {
+    "State": "TN",
+    "Salary": 25,
+    "Grade": 100,
+    "Room": "",
+    "Telnum": 1009,
+    "Picture": "dar.jpg",
+    "Keywords": "Darwin is very creative"
+  }
+}

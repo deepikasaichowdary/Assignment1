@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+   <body>
+
+   <center>
+      <header> <h1 style="color:deeppink">DEEPIKA SAI CHOWDARY RAJANENI</h1>
+    <h1 style="color:deeppink">UT-ID:1001868054</h1>
+<br><br> </header>
+
+      </header>
+      <br> <br>
+      <table border="1">
+
+         {% for row in rows %}
+         <tr>
+            <td>name:{{row[0]}}</td>
+            <td>State:{{row[1]}}</td>
+            <td>Salary:{{row[2]}}</td>
+            <td>Grade: {{ row[3]}}</td>
+	    <td>room:{{row[4]}}</td>
+            <td>telno: {{ row[5]}}</td>
+            <td> <img src="static/{{row[6]}}" alt="Image is not avaliable"></td> 
+            <td>Keywords:{{row[7]}}</td>
+           
+         </tr>
+         {% endfor %}
+      </table>
+
+      <br>
+      <a href="/">Home</a>
+   </body>
+</html>

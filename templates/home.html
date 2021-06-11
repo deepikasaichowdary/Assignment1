@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <body>
+
+    <center>
+      <header> <h1 style="color:deeppink">DEEPIKA SAI CHOWDARY RAJANENI</h1>
+    <h1 style="color:deeppink">UT-ID:1001868054</h1>
+<br><br> </header>
+<head>
+  <style type="text/css">
+    body{
+      background: cyan ;
+    }
+  </style>
+ </head>  
+    <form method='POST' action="/lis">
+            Enter the search option: <select name="values" id="valuesTA">
+                <option value="name">Name</option>
+                <option value="state">state</option>
+                <option value="room">Room</option> 
+            </select>
+            <br></br>
+      Enter the value:<input type="text" name="va" placeholder="Enter value">
+      <input type="submit" >
+      <br></br>
+    </form>
+
+        <form method='POST' action="/list1">
+            Search <select name="valuesNum" id="valuesTANum">
+                <option value="grade">Grade</option>
+                <option value="salary">salary</option>
+            </select>
+      where value is between <input type="text" name="valuenum1" placeholder="Enter value"> and <input type="text" name="valuenum2" placeholder="Enter value"> 
+      <input type="submit" >
+    </form>
+    <br></br>
+
+     <form method="POST" action="/deleterecord" >
+      Delete <select name="valuesDEL" id="valuesDEL">
+                <option value="nameDEL">Name</option>   
+            </select>   
+      where value is:<input type="text" name="valueDEL" placeholder="Enter value">
+      <input type="submit" >
+     </form>
+     <br>
+ </br>
+
+         <form method="POST" action="/update" >
+            ADD or MODIFY      <input type="text" name="ADD1" placeholder="Enter search value"> 
+             
+      to:
+            <select name="val2" id="valuesADD2">
+                <option value="key2">keyword</optin>
+                <option value="image2">Image</optin>    
+            </select> 
+            <input type="text" name="ADD2" placeholder="Updated to be value">
+      <input type="submit" >
+     </form>
+</body>
+
+</html>
